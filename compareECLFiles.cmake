@@ -185,6 +185,13 @@ add_test_compareECLFiles(CASENAME spe1_thermal
                          REL_TOL ${rel_tol}
                          DIR spe1)
 
+add_test_compareECLFiles(CASENAME spe12_drsdtr
+                         FILENAME SPE1CASE2_DRSDTR
+                         SIMULATOR flow
+                         ABS_TOL ${abs_tol}
+                         REL_TOL ${rel_tol}
+                         DIR spe1)
+
 add_test_compareECLFiles(CASENAME spe1_metric_vfp1
                          FILENAME SPE1CASE1_METRIC_VFP1
                          SIMULATOR flow
